@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import mo from '../assets/mo-1.png';
 import { techStack } from '../data';
 const Header = () => {
   const [isAbove, setIsAbove] = useState(false)
@@ -19,7 +20,10 @@ const Header = () => {
   return <nav className={`px-8 py-4 flex justify-center ${isAbove ? "fixed top-0 left-0 right-0 bg-white z-50 " : ''}mx-auto`} ref={myHeadRef}>
     <div className="flex items-center">
       <div className="flex flex-col">
+        <img src={mo} alt="" className='w-66 h-36' />
+        {/* 
         <h1 className=" text-c-4 font-semibold text-6xl italic tracking-wide">Mike Oppong</h1>
+       */}
         <div className="mt-2">
           <p className="capitalize text-gray-500 mt-1 tracking-tight">web developer</p>
           <ul className='flex gap-x-2 mt-4'>

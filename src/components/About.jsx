@@ -8,6 +8,7 @@ const About = () => {
         My journey to software development was influence by my previous work experience in a software company where i was involved in design and implementation of functional requirements for Enterprise Resource Applications.
       </p>
     </div>
+
   </section>
 }
 export default About;
