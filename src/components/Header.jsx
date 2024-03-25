@@ -20,7 +20,7 @@ const Header = () => {
   return <nav className={`px-8 py-4 flex justify-center ${isAbove ? "fixed top-0 left-0 right-0 bg-white z-50 " : ''}mx-auto`} ref={myHeadRef}>
     <div className="flex items-center">
       <div className="flex flex-col">
-        <img src={mo} alt="" className='w-66 h-36' />
+        <img src={mo} alt="" className='w-66 h-24' />
         {/* 
         <h1 className=" text-c-4 font-semibold text-6xl italic tracking-wide">Mike Oppong</h1>
        */}
