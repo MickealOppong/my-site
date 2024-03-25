@@ -7,7 +7,7 @@ const Header = () => {
 
   window.addEventListener('scroll', () => {
     const navContainer = myHeadRef.current;
-    const navHeight = navContainer.getBoundingClientRect().height - 10;
+    const navHeight = navContainer.getBoundingClientRect().height;
     const scrollHeight = window.scrollY;
     if (scrollHeight > navHeight) {
       setIsAbove(true)
