@@ -5,16 +5,16 @@ import { page } from '../data';
 const Hero = () => {
   const [image, setImage] = useState(page[1].img)
 
-  return <section className="px-8 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
+  return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
 
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
-      <div className="shadow-2xl sm:w-80  w-96 md:w-full">
+      <div className="shadow-2xl w-96 md:w-full">
         <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
         <div className='flex justify-center py-8 bg-white'>
           <p className='text-slate-700 tracking-wider uppercase'>Cocktail API</p>
         </div>
       </div>
-      <div className="shadow-2xl sm:w-80  w-96 md:w-full">
+      <div className="shadow-2xl w-96 md:w-full">
         <a href="https://react-swiftstore.netlify.app" target='_blank' >
           <img src={image} />
         </a>
@@ -22,7 +22,7 @@ const Hero = () => {
           <p className='text-slate-700 tracking-wider uppercase'>e-commerce website</p>
         </div>
       </div>
-      <div className="shadow-2xl sm:w-80  w-96 md:w-full">
+      <div className="shadow-2xl w-96 md:w-full">
         <a href="https://react-swiftstore.netlify.app" target='_blank' >
           <img src={img3} />
         </a>
