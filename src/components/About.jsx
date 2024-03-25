@@ -16,11 +16,11 @@ const About = () => {
     <div className="flex flex-col ">
       <button className="uppercase bg-c-4 text-gray-100 h-12 w-36 mt-4 border-2 shadow-md rounded-md">contact</button>
       <div className="flex gap-x-2 mt-2 text-slate-500">
-        <span className="uppercase ">email</span>
+        <span className="uppercase">email:</span>
         <p>opp.mic@gmail.com</p>
       </div>
       <div className="flex gap-x-2 mt-2 text-slate-500">
-        <span className="uppercase ">Phone</span>
+        <span className="uppercase ">Phone :</span>
         <p className="">+48 739-593-752</p>
       </div>
     </div>
