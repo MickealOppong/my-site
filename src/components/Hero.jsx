@@ -1,5 +1,9 @@
+import { useState } from 'react';
 import img1 from '../assets/mix-master.png';
+import { page } from '../data';
 const Hero = () => {
+  const [image, setImage] = useState(page[1].img)
+
   return <section className="px-8 mt-8 md:px-16 lg:px-32 bg-gray-300 py-10 h-[90vh]">
 
     <article className="grid gap-y-4 sm:grid-cols-2 sm:gap-2 md:gap-x-4 lg:grid-cols-3">
@@ -10,7 +14,12 @@ const Hero = () => {
         </div>
       </div>
       <div className=" bg-c-2">
-        container 2
+        <a href="https://react-swiftstore.netlify.app" target='_blank' >
+          <img src={image} />
+        </a>
+        <div className='flex justify-center py-8 bg-white'>
+          <p className='text-slate-700 tracking-wider'>e-commerce</p>
+        </div>
       </div>
       <div className="bg-c-4">
         container 3
