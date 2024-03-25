@@ -6,15 +6,17 @@ const Header = () => {
 
 
   window.addEventListener('scroll', () => {
-    const header = myHeadRef.current;
-    const headerHeight = header.getBoundingClientRect().height;
-    if (scrollY > headerHeight) {
+    const navContainer = myHeadRef.current;
+    const navHeight = navContainer.getBoundingClientRect().height - 10;
+    const scrollHeight = window.scrollY;
+    if (scrollHeight > navHeight) {
       setIsAbove(true)
       return;
     }
     setIsAbove(false);
+
   })
-  return <nav className={`px-8 py-2 ${isAbove ? "fixed top-0 left-0 right-0 bg-white z-50 flex justify-center" : 'max-w-3xl mx-auto'} `} ref={myHeadRef}>
+  return <nav className={`px-8 py-4 flex justify-center ${isAbove ? "fixed top-0 left-0 right-0 bg-white z-50 " : ''}mx-auto`} ref={myHeadRef}>
     <div className="flex items-center">
       <div className="flex flex-col">
         <h1 className=" text-c-4 font-semibold text-6xl italic tracking-wide">Mike Oppong</h1>
