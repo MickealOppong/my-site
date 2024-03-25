@@ -1,11 +1,28 @@
+import { useRef, useState } from 'react';
 import { techStack } from '../data';
 const Header = () => {
-  return <header className="px-8 py-8 max-w-3xl mx-auto">
+  const [isAbove, setIsAbove] = useState(false)
+  const myHeadRef = useRef(null);
+
+
+  window.addEventListener('scroll', () => {
+    const header = myHeadRef.current;
+    let headerHeight;
+    if (header) {
+      headerHeight = header.getBoundingClientRect().height + 10;
+    }
+
+    if (scrollY > headerHeight) {
+      setIsAbove(true)
+      return;
+    }
+  })
+  return <nav className={`px-8 py-2 ${isAbove ? "fixed top-0 left-0 right-0 bg-white z-50 flex justify-center" : 'max-w-3xl mx-auto'} `} ref={myHeadRef}>
     <div className="flex items-center">
       <div className="flex flex-col">
         <h1 className=" text-c-4 font-semibold text-6xl italic">Mike Oppong</h1>
         <div className="mt-2">
-          <p className="capitalize text-gray-500">web developer</p>
+          <p className="capitalize text-gray-500 mt-1">web developer</p>
           <ul className='flex gap-x-2 mt-4'>
             {
               techStack.map((item) => {
@@ -20,6 +37,6 @@ const Header = () => {
         </div>
       </div>
     </div>
-  </header>
+  </nav>
 }
 export default Header;
