@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://react-swiftstore.netlify.app" target='_blank' >
+        <a href="https://vite-splash.netlify.app" target='_blank' >
           <img src={img3} />
         </a>
         <div className='flex justify-center py-8 bg-white'>
