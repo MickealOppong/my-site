@@ -30,7 +30,11 @@ const Hero = () => {
       </div>
       <div className="shadow-2xl w-96 md:w-full">
 
-        <div className='relatve'>
+        <div className='relatve' onMouseEnter={() => {
+          setShowLink(() => !showLink)
+        }} onMouseLeave={() => {
+          setShowLink(() => !showLink)
+        }}>
           <img src={seahorse} />
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>e-commerce website</p>
@@ -43,7 +47,11 @@ const Hero = () => {
       </div>
       <div className="shadow-2xl w-96 md:w-full">
 
-        <div className='relative'>
+        <div className='relative' onMouseEnter={() => {
+          setShowLink(() => !showLink)
+        }} onMouseLeave={() => {
+          setShowLink(() => !showLink)
+        }}>
           <img src={img3} />
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-commerce Landing page</p>
