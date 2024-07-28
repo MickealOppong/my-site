@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Project = ({ img, text, github, url, description }) => {
   const [showLink, setShowLink] = useState(false)
-  return <article className='w-96'>
+  return <article className='w-[30rem]'>
     <div className="shadow-2xl w-96 md:w-full
       " >
       <div className='relative' onMouseEnter={() => {
