@@ -26,7 +26,7 @@ export const projectData = [
     text: 'e-commerce-cms',
     github: 'https://github.com/MickealOppong/cms-backend-api',
     url: 'https://e-cms.netlify.app/landing',
-    description: 'This is a demo full stack app for creating and managing products,users, and other functionalities needed to operate an e-commerce website. The Backend is written using Java with Spring-boot framework authenticating users using jwt. The app is 80% completed with few functionality to be completed'
+    description: 'This is a demo full stack app for creating and managing products,users, and other functionalities needed to operate an e-commerce website. The Backend is written using Java with Spring-boot framework authenticating users using jwt.The front-end side is developed using javascript and react framework.This app is in work in progress'
   },
 
   {
