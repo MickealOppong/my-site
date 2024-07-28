@@ -12,8 +12,7 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full relative
       " >
 
-        <div onMouseOver={setShowLink(() => !showLink
-        )}>
+        <div>
           <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
