@@ -19,7 +19,7 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
           </p>
         </div>
-        <div className='bg-c-4 hover:scale-105 w-36 mt-8 flex justify-center'>
+        <div className='bg-c-3 hover:scale-105'>
           <a className='text-slate-100' href="https://e-cms.netlify.app/products" target='_blank' >live site</a>
         </div>
       </div>
