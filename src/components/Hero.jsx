@@ -19,24 +19,46 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
           </p>
         </div>
-        <div className='bg-c-3 hover:scale-105'>
+        <div className='bg-c-3 hover:scale-105 flex justify-center'>
           <a className='text-slate-100' href="https://e-cms.netlify.app/products" target='_blank' >live site</a>
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://react-seahorse.netlify.app/cart" target='_blank' >
-          <img src={seahorse} />
-        </a>
-        <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>e-commerce website</p>
+        <div>
+          <a href="https://react-seahorse.netlify.app/cart" target='_blank' >
+            <img src={seahorse} />
+          </a>
+          <div className='flex justify-center py-8 bg-white'>
+            <p className='text-slate-700 tracking-wider uppercase'>e-commerce website</p>
+          </div>
+        </div>
+        <div className='bg-white p-2'>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
+          </p>
+        </div>
+        <div className='bg-c-3 hover:scale-105 flex justify-center'>
+          <a href="https://react-seahorse.netlify.app/cart" target='_blank' >live site </a>
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://seahorse-land-page.netlify.app" target='_blank' >
-          <img src={img3} />
-        </a>
-        <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>E-commerce landing page</p>
+
+
+        <div>
+          <a href="https://seahorse-land-page.netlify.app" target='_blank' >
+            <img src={img3} />
+          </a>
+          <div className='flex justify-center py-8 bg-white'>
+            <p className='text-slate-700 tracking-wider uppercase'>E-commerce landing page</p>
+          </div>
+        </div>
+        <div className='bg-white p-2'>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
+          </p>
+        </div>
+        <div className='bg-c-3 hover:scale-105 flex justify-center'>
+          <a href="https://seahorse-land-page.netlify.app" target='_blank' >live site </a>
         </div>
       </div>
     </article>
