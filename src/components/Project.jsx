@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Project = ({ img, text, github, url, description }) => {
   const [showLink, setShowLink] = useState(false)
-  return <article className=''>
+  return <article className='w-96'>
     <div className="shadow-2xl w-96 md:w-full
       " >
       <div className='relative' onMouseEnter={() => {
@@ -21,7 +21,7 @@ const Project = ({ img, text, github, url, description }) => {
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
       </div>
-      <div className="bg-white">
+      <div className="bg-white p-2 text-sm">
         <p>{description}</p>
       </div>
     </div>
