@@ -5,6 +5,7 @@ export const techStack = [
   { id: 2, text: 'Spring' },
   { id: 3, text: 'Javascript' },
   { id: 4, text: 'HTML & CSS' },
+  { id: 5, text: 'Typescript' },
   { id: 5, text: 'React' },
 ]
 

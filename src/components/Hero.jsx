@@ -1,6 +1,6 @@
+import img3 from '../assets/landing-page.png';
 import img1 from '../assets/mix-master.png';
 import seahorse from '../assets/seahorse.png';
-import img3 from '../assets/splash.png';
 const Hero = () => {
   //const [image, setImage] = useState(page[1].img)
 
@@ -22,11 +22,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://vite-splash.netlify.app" target='_blank' >
+        <a href="https://seahorse-land-page.netlify.app" target='_blank' >
           <img src={img3} />
         </a>
         <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>unsplash API</p>
+          <p className='text-slate-700 tracking-wider uppercase'>E-commerce landing page</p>
         </div>
       </div>
     </article>
