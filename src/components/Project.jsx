@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const Project = ({ img, text, github, url }) => {
+const Project = ({ img, text, github, url, description }) => {
   const [showLink, setShowLink] = useState(false)
   return <article className=''>
     <div className="shadow-2xl w-96 md:w-full
@@ -20,6 +20,9 @@ const Project = ({ img, text, github, url }) => {
           <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href={url} target='_blank' >live site</a></button>
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
+      </div>
+      <div>
+        <p>{description}</p>
       </div>
     </div>
   </article>
