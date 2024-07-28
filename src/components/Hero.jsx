@@ -7,7 +7,7 @@ const Hero = () => {
   return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
     {/** FIRST DEMO PROJECT */}
     <article className="flex flex-col gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36" >
-      <div className="flex shadow-2xl w-full ">
+      <div className="flex shadow-2xl w-96 md:w-full">
         <div className='w-full'>
           <a href="https://e-cms.netlify.app/products" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
