@@ -16,7 +16,7 @@ const Project = ({ img, text, github, url, description }) => {
         <div className='flex justify-center py-8 bg-white'>
           <p className='text-slate-700 tracking-wider uppercase'>{text}</p>
         </div>
-        <div className={`flex ${showLink ? 'w-auto duration-300' : 'w-0 duration-300'} absolute top-[50%] left-[40%] flex-col gap-2  p-2 justify-center items-center `}>
+        <div className={`flex ${showLink ? 'opacity-[100] translate-x-0 duration-300 ' : 'opacity-0 duration-300 -translate-Y-full'} absolute top-[50%] left-[50%] flex-col gap-2  p-2 justify-center items-center `}>
           <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href={url} target='_blank' >live site</a></button>
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
