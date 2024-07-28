@@ -16,14 +16,13 @@ const Hero = () => {
           <div className='bg-c-3 hover:scale-105 duration-300 flex justify-center'>
             <a className='text-slate-100' href="https://e-cms.netlify.app/products" target='_blank' >live site</a>
           </div>
+          <div className='bg-white p-2 w-full'>
+            <p className='text-xl uppercase'>Demo project Summary</p>
+            <p>
+              This demo project is a full stack application intended to support the creation and management of products, users and other functionality needed to run an e-commerce app from the perspective of the store manager independent of the creator of the App. This is still in work in progress with minor functionality yet to be completed. the project used Java and Spring-boot for the backend and javascript and react, tailwind css on the front-end.
+            </p>
+          </div>
         </div>
-        <div className='bg-white p-2 w-full'>
-          <p className='text-xl uppercase'>Demo project Summary</p>
-          <p>
-            This demo project is a full stack application intended to support the creation and management of products, users and other functionality needed to run an e-commerce app from the perspective of the store manager independent of the creator of the App. This is still in work in progress with minor functionality yet to be completed. the project used Java and Spring-boot for the backend and javascript and react, tailwind css on the front-end.
-          </p>
-        </div>
-
       </div>
 
       {/** SECOND DEMO PROJECT */}
