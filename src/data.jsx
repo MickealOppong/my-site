@@ -1,6 +1,6 @@
 import img1 from './assets/cms.png';
 import img3 from './assets/landing-page.png';
-import img2 from './assets/seahorse.png';
+import img2 from './assets/store.png';
 
 
 export const techStack = [
