@@ -29,7 +29,7 @@ const Header = () => {
           <ul className='flex gap-x-2 mt-4'>
             {
               techStack.map((item) => {
-                return <div className='grid grid-cols-2 items-center gap-x-2 pb-4' key={item.id}>
+                return <div className='grid grid-cols-2 md:flex items-center gap-x-2 pb-4' key={item.id}>
                   <div className='h-2 w-2 bg-c-2 '></div>
                   <li className='tracking-tight uppercase text-xs text-slate-500'>{item.text}</li>
                 </div>
