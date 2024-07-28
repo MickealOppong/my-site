@@ -11,7 +11,7 @@ const Hero = () => {
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full
       " >
-        <div className='relative' onMouseOver={() => {
+        <div className='relative' onMouseEnter={() => {
           console.log(
             'mouse over'
           );
