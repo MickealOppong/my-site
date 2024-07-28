@@ -9,7 +9,7 @@ const Hero = () => {
   return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
 
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
-      <div className="shadow-2xl w-96 md:w-full ">
+      <div className="shadow-2xl w-96 md:w-full relative">
         <div >
           <a href="https://e-cms.netlify.app/products" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
@@ -21,7 +21,7 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
           </p>
         </div>
-        <div >
+        <div className='absolute top:50' >
           <p>live site</p>
         </div>
       </div>
