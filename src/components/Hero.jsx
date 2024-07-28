@@ -8,9 +8,16 @@ const Hero = () => {
 
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://e-cms.netlify.app/products" target='_blank' ><img src={img1} /></a>
-        <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>E-commerce CMS</p>
+        <div>
+          <a href="https://e-cms.netlify.app/products" target='_blank' ><img src={img1} /></a>
+          <div className='flex justify-center py-8 bg-white'>
+            <p className='text-slate-700 tracking-wider uppercase'>E-commerce CMS</p>
+          </div>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
+          </p>
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
