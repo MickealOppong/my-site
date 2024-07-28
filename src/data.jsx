@@ -22,7 +22,7 @@ export const page = [
 export const projectData = [
   {
     id: 1,
-    img: img2,
+    img: img1,
     text: 'e-commerce-cms',
     github: 'https://github.com/MickealOppong/cms-backend-api',
     url: 'https://e-cms.netlify.app/landing'
@@ -30,7 +30,7 @@ export const projectData = [
 
   {
     id: 2,
-    img: img1,
+    img: img2,
     text: 'e-commerce',
     github: 'https://github.com/MickealOppong/store',
     url: 'https://react-seahorse.netlify.app'
