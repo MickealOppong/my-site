@@ -23,17 +23,24 @@ export const projectData = [
   {
     id: 1,
     img: img1,
-    text: 'e-commerce-cms'
+    text: 'e-commerce-cms',
+    github: 'https://github.com/MickealOppong/cms-backend-api',
+    url: 'https://e-cms.netlify.app/landing'
   },
 
   {
     id: 2,
     img: img1,
-    text: 'e-commerce'
+    text: 'e-commerce',
+    github: 'https://github.com/MickealOppong/store',
+    url: 'https://react-seahorse.netlify.app'
+
   },
   {
     id: 3,
     img: img3,
-    text: 'e-commerce-landing page'
+    text: 'e-commerce-landing page',
+    github: 'https://github.com/MickealOppong/Fashion-Landing-Page',
+    url: 'https://seahorse-land-page.netlify.app'
   }
 ]
