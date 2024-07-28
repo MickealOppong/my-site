@@ -17,8 +17,8 @@ const Project = ({ img, text, github, url, description }) => {
           <p className='text-slate-700 tracking-wider uppercase'>{text}</p>
         </div>
         <div className={`flex ${showLink ? 'opacity-[100] translate-x-0 duration-300 ' : 'opacity-0 duration-300 -translate-Y-full'} absolute top-[50%] left-[45%] flex-col gap-2  p-2 justify-center items-center `}>
-          <button className='bg-c-2 text-white w-24 h-12 capitalize'><a lassName='text-white text-sm ' href={url} target='_blank' >live site</a></button>
-          <button className='bg-c-2 text-white w-24 h-12 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
+          <button className='bg-c-4 text-white w-24 h-8 capitalize'><a lassName='text-white text-sm ' href={url} target='_blank' >live site</a></button>
+          <button className='bg-c-4 text-white w-24 h-8 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
       </div>
       <div className="bg-white p-2 text-sm h-[7rem]">
