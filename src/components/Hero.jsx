@@ -15,9 +15,9 @@ const Hero = () => {
           </div>
         </div>
         <div className='bg-white p-2'>
-          <p>Demo project Summary</p>
+          <p className='text-xl uppercase'>Demo project Summary</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
+            This demo project is a full stack application intended to support th creation and management of products, users and other functionality needed to run an e-commerce app from the perspective of the store manager independent of the create of the App. This is still in work in progress with minor functionality yet to be completed. the project used Java and Spring-boot for the backend and javascript and react, tailwind css on the front-end.
           </p>
         </div>
         <div className='bg-c-3 hover:scale-105 duration-300 flex justify-center'>
