@@ -24,10 +24,7 @@ const Project = ({ img, text, github, url, description }) => {
       <div className="bg-white p-2 text-sm h-[7rem]">
         <p>{description}</p>
       </div>
-      <div className={`flex ${showLink ? 'top-0 bottom-0' : ''} bg-slate-100 absolute 
-      z-40 w-full h-full`}>
 
-      </div>
     </div>
   </article>
 }
