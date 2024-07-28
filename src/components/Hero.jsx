@@ -14,9 +14,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full
       " >
         <div className='relative' onMouseEnter={() => {
-          setShowLinkA(() => !showLink)
+          setShowLinkA(() => !showLinkA)
         }} onMouseLeave={() => {
-          setShowLinkA(() => !showLink)
+          setShowLinkA(() => !showLinkA)
         }}>
           <img src={img1} />
           <div className='flex justify-center py-8 bg-white'>
@@ -33,9 +33,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full">
 
         <div className='relatve' onMouseEnter={() => {
-          setShowLinkB(() => !showLink)
+          setShowLinkB(() => !showLinkB)
         }} onMouseLeave={() => {
-          setShowLinkB(() => !showLink)
+          setShowLinkB(() => !showLinkB)
         }}>
           <img src={seahorse} />
           <div className='flex justify-center py-8 bg-white'>
@@ -50,9 +50,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full">
 
         <div className='relative' onMouseEnter={() => {
-          setShowLinkC(() => !showLink)
+          setShowLinkC(() => !showLinkC)
         }} onMouseLeave={() => {
-          setShowLinkC(() => !showLink)
+          setShowLinkC(() => !showLinkC)
         }}>
           <img src={img3} />
           <div className='flex justify-center py-8 bg-white'>
