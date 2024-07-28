@@ -7,6 +7,7 @@ const Project = ({ img }) => {
       " >
       <div className='relative' onMouseEnter={() => {
         setShowLink(() => !showLink)
+        console.log('enter');
       }} onMouseLeave={() => {
         setShowLink(() => !showLink)
       }}>
