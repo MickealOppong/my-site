@@ -26,7 +26,7 @@ const Hero = () => {
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
           </div>
-          <div className={`flex flex-col gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLink ? 'w-auto' : 'w-0'}`}>
+          <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLink ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
             <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://react-cocktail-master.netlify.app" target='_blank' >live site</a></button>
             <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href="https://react-cocktail-master.netlify.app" target='_blank' >source code</a></button>
           </div>
