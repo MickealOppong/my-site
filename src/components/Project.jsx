@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Project = ({ img, text, github, url }) => {
   const [showLink, setShowLink] = useState(false)
-  return <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
+  return <article className=''>
     <div className="shadow-2xl w-96 md:w-full
       " >
       <div className='relative' onMouseEnter={() => {
