@@ -4,7 +4,7 @@ const Project = ({ img, text, github, url, description }) => {
   const [showLink, setShowLink] = useState(false)
   return <article className='w-full'>
     <div className="shadow-2xl w-96 md:w-full
-       h-[40rem]" >
+      " >
       <div className='relative' onMouseEnter={() => {
         setShowLink(() => !showLink)
         console.log('enter');
@@ -21,7 +21,7 @@ const Project = ({ img, text, github, url, description }) => {
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
       </div>
-      <div className="bg-white p-2 text-sm">
+      <div className="bg-white p-2 text-sm h-[5rem]">
         <p>{description}</p>
       </div>
     </div>
