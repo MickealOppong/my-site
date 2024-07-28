@@ -1,5 +1,5 @@
+import img1 from '../assets/cms.png';
 import img3 from '../assets/landing-page.png';
-import img1 from '../assets/mix-master.png';
 import seahorse from '../assets/seahorse.png';
 const Hero = () => {
   //const [image, setImage] = useState(page[1].img)
@@ -8,9 +8,9 @@ const Hero = () => {
 
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full">
-        <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
+        <a href="https://e-cms.netlify.app/products" target='_blank' ><img src={img1} /></a>
         <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>Cocktail API</p>
+          <p className='text-slate-700 tracking-wider uppercase'>E-commerce CMS</p>
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
