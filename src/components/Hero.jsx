@@ -11,12 +11,12 @@ const Hero = () => {
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full
       " >
-        <div>
+        <div className='relative'>
           <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
           </div>
-          <div>
+          <div className='absolute top-[50%] left-[50%]'>
             <a className='text-white' href="https://react-cocktail-master.netlify.app" target='_blank' >live site</a>
           </div>
 
