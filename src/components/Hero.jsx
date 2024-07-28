@@ -14,7 +14,7 @@ const Hero = () => {
             <p className='text-slate-700 tracking-wider uppercase'>E-commerce CMS</p>
           </div>
         </div>
-        <div>
+        <div className='bg-white p-2'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio illum eius a, praesentium repellat officiis molestias, rem quam ducimus aperiam corporis. Quaerat molestiae rem provident corporis iste veniam adipisci.
           </p>
