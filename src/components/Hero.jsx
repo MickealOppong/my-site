@@ -1,5 +1,6 @@
 import { projectData } from '../data';
 import Project from './Project';
+
 const Hero = () => {
   return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
 
