@@ -22,7 +22,7 @@ const Hero = () => {
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
           </div>
-          <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLink ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
+          <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLinkA ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
             <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://e-cms.netlify.app/landing" target='_blank' >live site</a></button>
             <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href="https://github.com/MickealOppong/cms-backend-api" target='_blank' >source code</a></button>
           </div>
@@ -42,7 +42,7 @@ const Hero = () => {
             <p className='text-slate-700 tracking-wider uppercase'>e-commerce website</p>
           </div>
         </div>
-        <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLink ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
+        <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLinkB ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
           <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://react-seahorse.netlify.app/cart" target='_blank' >live site</a></button>
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href="https://github.com/MickealOppong/store" target='_blank' >source code</a></button>
         </div>
@@ -59,7 +59,7 @@ const Hero = () => {
             <p className='text-slate-700 tracking-wider uppercase'>E-commerce Landing page</p>
           </div>
         </div>
-        <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLink ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
+        <div className={` gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center ${showLinkC ? 'flex flex-col w-auto' : 'hidden w-0'}`}>
           <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://seahorse-land-page.netlify.app" target='_blank' >live site</a></button>
           <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href="https://github.com/MickealOppong/Fashion-Landing-Page" target='_blank' >source code</a></button>
         </div>
