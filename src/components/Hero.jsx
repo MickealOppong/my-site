@@ -11,14 +11,22 @@ const Hero = () => {
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full
       " >
-        <div className='relative'>
+        <div className='relative' onMouseOver={() => {
+          console.log(
+            'mouse over'
+          );
+        }} onMouseLeave={() => {
+          console.log(
+            'mouse leave'
+          );
+        }}>
           <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
           </div>
           <div className='flex flex-col gap-2 absolute top-[50%] left-[40%] p-2 justify-center items-center'>
-            <button className='bg-black text-white w-24 capitalize'><a lassName='text-white' href="https://react-cocktail-master.netlify.app" target='_blank' >live site</a></button>
-            <button className='bg-black text-white w-24 capitalize'><a className='text-white' href="https://react-cocktail-master.netlify.app" target='_blank' >source code</a></button>
+            <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://react-cocktail-master.netlify.app" target='_blank' >live site</a></button>
+            <button className='bg-black text-white w-24 capitalize'><a className='text-white text-sm ' href="https://react-cocktail-master.netlify.app" target='_blank' >source code</a></button>
           </div>
 
         </div>
