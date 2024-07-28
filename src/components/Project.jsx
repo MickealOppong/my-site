@@ -24,7 +24,7 @@ const Project = ({ img, text, github, url, description }) => {
       <div className="bg-white p-2 text-sm h-[7rem]">
         <p>{description}</p>
       </div>
-      <div className={`${showLink ? 'flex' : 'hidden'}bg-slate-100 absolute top-0 bottom-0
+      <div className={`bg-slate-100 absolute top-0 bottom-0
       left-0 right-0 z-40 w-full h-full`}>
 
       </div>
