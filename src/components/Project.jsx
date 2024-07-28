@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const Project = ({ img }) => {
+const Project = ({ img, text }) => {
   const [showLink, setShowLink] = useState(false)
   return <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
     <div className="shadow-2xl w-96 md:w-full
@@ -14,7 +14,7 @@ const Project = ({ img }) => {
       }}>
         <img src={img} />
         <div className='flex justify-center py-8 bg-white'>
-          <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
+          <p className='text-slate-700 tracking-wider uppercase'>${text}</p>
         </div>
         <div className={` gap-2  p-2 justify-center items-center `}>
           <button className='bg-black text-white w-24 capitalize'><a lassName='text-white text-sm ' href="https://e-cms.netlify.app/landing" target='_blank' >live site</a></button>
