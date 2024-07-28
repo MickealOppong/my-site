@@ -10,10 +10,10 @@ const Hero = () => {
 
     <article className="grid gap-8 md:gap-12 lg:gap-4 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:w-10/12 lg:mx-36">
       <div className="shadow-2xl w-96 md:w-full relative
-      " onMouseOver={setShowLink(() => !showLink
-      )}>
+      " >
 
-        <div>
+        <div onMouseOver={setShowLink(() => !showLink
+        )}>
           <a href="https://react-cocktail-master.netlify.app" target='_blank' ><img src={img1} /></a>
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
