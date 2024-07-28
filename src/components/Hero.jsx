@@ -16,7 +16,7 @@ const Hero = () => {
           <div className='flex justify-center py-8 bg-white'>
             <p className='text-slate-700 tracking-wider uppercase'>E-Commerce CMS</p>
           </div>
-          <div className='flex flex-col gap-2 absolute top-[50%] left-[30%] p-2'>
+          <div className='flex flex-col gap-2 absolute top-[50%] left-[40%] p-2 justify-center'>
             <a className='bg-black text-white w-24' href="https://react-cocktail-master.netlify.app" target='_blank' >live site</a>
             <a className='bg-black text-white w-24' href="https://react-cocktail-master.netlify.app" target='_blank' >source code</a>
           </div>
