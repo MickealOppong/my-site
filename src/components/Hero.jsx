@@ -4,7 +4,9 @@ import img3 from '../assets/landing-page.png';
 import seahorse from '../assets/seahorse.png';
 const Hero = () => {
   //const [image, setImage] = useState(page[1].img)
-  const [showLink, setShowLink] = useState(false);
+  const [showLinkA, setShowLinkA] = useState(false);
+  const [showLinkB, setShowLinkB] = useState(false);
+  const [showLinkC, setShowLinkC] = useState(false);
 
   return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
 
@@ -12,9 +14,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full
       " >
         <div className='relative' onMouseEnter={() => {
-          setShowLink(() => !showLink)
+          setShowLinkA(() => !showLink)
         }} onMouseLeave={() => {
-          setShowLink(() => !showLink)
+          setShowLinkA(() => !showLink)
         }}>
           <img src={img1} />
           <div className='flex justify-center py-8 bg-white'>
@@ -31,9 +33,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full">
 
         <div className='relatve' onMouseEnter={() => {
-          setShowLink(() => !showLink)
+          setShowLinkB(() => !showLink)
         }} onMouseLeave={() => {
-          setShowLink(() => !showLink)
+          setShowLinkB(() => !showLink)
         }}>
           <img src={seahorse} />
           <div className='flex justify-center py-8 bg-white'>
@@ -48,9 +50,9 @@ const Hero = () => {
       <div className="shadow-2xl w-96 md:w-full">
 
         <div className='relative' onMouseEnter={() => {
-          setShowLink(() => !showLink)
+          setShowLinkC(() => !showLink)
         }} onMouseLeave={() => {
-          setShowLink(() => !showLink)
+          setShowLinkC(() => !showLink)
         }}>
           <img src={img3} />
           <div className='flex justify-center py-8 bg-white'>
