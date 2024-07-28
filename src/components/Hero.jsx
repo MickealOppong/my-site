@@ -38,12 +38,10 @@ const Hero = () => {
           </p>
         </div>
         <div className='bg-c-3 hover:scale-105 flex justify-center'>
-          <a href="https://react-seahorse.netlify.app/cart" target='_blank' >live site </a>
+          <a className='text-slate-100' href="https://react-seahorse.netlify.app/cart" target='_blank' >live site </a>
         </div>
       </div>
       <div className="shadow-2xl w-96 md:w-full">
-
-
         <div>
           <a href="https://seahorse-land-page.netlify.app" target='_blank' >
             <img src={img3} />
@@ -58,7 +56,7 @@ const Hero = () => {
           </p>
         </div>
         <div className='bg-c-3 hover:scale-105 flex justify-center'>
-          <a href="https://seahorse-land-page.netlify.app" target='_blank' >live site </a>
+          <a className='text-slate-100' href="https://seahorse-land-page.netlify.app" target='_blank'>live site </a>
         </div>
       </div>
     </article>
