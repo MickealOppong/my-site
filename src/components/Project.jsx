@@ -12,7 +12,7 @@ const Project = ({ img, text, github, url, description }) => {
         setShowLink(() => !showLink)
         console.log('leave');
       }}>
-        <img className="w-[20rem] h-[20rem]" src={img} />
+        <img className="w-full h-[20rem]" src={img} />
         <div className='flex justify-center py-8 bg-white'>
           <p className='text-slate-700 tracking-wider uppercase'>{text}</p>
         </div>
