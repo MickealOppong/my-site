@@ -4,7 +4,7 @@ import Project from './Project';
 const Hero = () => {
   return <section className="px-4 mt-8 md:px-16 lg:px-32 bg-gray-300 py-20 ">
 
-    <div className='flex items-center '>
+    <div className='flex items-center w-full '>
       {
         projectData.map((item) => {
           return <Project img={item.img} key={item.id} />
