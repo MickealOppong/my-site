@@ -1,5 +1,6 @@
-import img1 from './assets/swiftstore-1.png'
-import img2 from './assets/swiftstore-2.png'
+import img1 from '../assets/cms.png';
+import img3 from '../assets/seahorse.png';
+import img2 from './assets/swiftstore-2.png';
 export const techStack = [
   { id: 1, text: 'Java' },
   { id: 2, text: 'Spring' },
@@ -14,4 +15,20 @@ export const page = [
   { id: 1, img: img1 },
   { id: 2, img: img2 },
 
+]
+
+export const projectData = [
+  {
+    id: 1,
+    img: img1
+  },
+
+  {
+    id: 2,
+    img: img1
+  },
+  {
+    id: 3,
+    img: img3
+  }
 ]
