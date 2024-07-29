@@ -21,7 +21,7 @@ const Project = ({ img, text, github, url, description }) => {
           <button className='bg-c-4 text-white w-24 h-8 capitalize'><a className='text-white text-sm ' href={github} target='_blank' >source code</a></button>
         </div>
       </div>
-      <div className="bg-white p-2 text-sm h-[7rem]">
+      <div className="bg-white p-2 text-sm h-[9rem]">
         <p>{description}</p>
       </div>
 
